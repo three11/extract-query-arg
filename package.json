@@ -1,0 +1,33 @@
+{
+  "name": "@three11/extract-query-arg",
+  "version": "0.1.0",
+  "description": "Extract query argument from url",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/three11/extract-query-arg.git"
+  },
+  "keywords": ["extract", "query", "argument", "GET"],
+  "authors": [
+    {
+      "name": "Three 11 Ltd",
+      "email": "contact.three11@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Alexander Panayotov",
+      "email": "alexander.panayotov@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Atanas Atanasov",
+      "email": "scriptex.bg@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/three11/extract-query-arg/issues"
+  },
+  "homepage": "https://github.com/three11/extract-query-arg#readme"
+}
