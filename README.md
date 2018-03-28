@@ -1,4 +1,4 @@
-# Infinite Scroll
+# Extract Query Argument
 
 A vanilla ES2017 module for extracting query arguments from url.
 
