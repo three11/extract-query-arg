@@ -1,13 +1,21 @@
 {
   "name": "@three11/extract-query-arg",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extract query argument from url",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/three11/extract-query-arg.git"
   },
-  "keywords": ["extract", "query", "argument", "GET"],
+  "keywords": [
+    "extract",
+    "query",
+    "argument",
+    "GET"
+  ],
   "authors": [
     {
       "name": "Three 11 Ltd",
@@ -29,5 +37,11 @@
   "bugs": {
     "url": "https://github.com/three11/extract-query-arg/issues"
   },
-  "homepage": "https://github.com/three11/extract-query-arg#readme"
+  "homepage": "https://github.com/three11/extract-query-arg#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-stage-2": "^7.0.0-beta.42"
+  }
 }
