@@ -14,6 +14,15 @@ or
 yarn add @three11/extract-query-arg
 ```
 
+## Usage
+
+```
+import extractQueryArg from '@three11/extract-query-arg';
+
+// Get name parameter from current browser URL
+extractQueryArg('name');
+```
+
 ## License
 
 GNU GENERAL PUBLIC LICENSE
