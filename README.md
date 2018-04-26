@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/dt/@three11/extract-query-arg.svg)](https://www.npmjs.com/package/@three11/extract-query-arg)
+
 # Extract Query Argument
 
 A vanilla ES2017 module for extracting query arguments from url.
