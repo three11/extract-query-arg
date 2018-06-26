@@ -4,6 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/three11/extract-query-arg.svg)](https://github.com/three11/extract-query-arg/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/extract-query-arg.svg)](https://github.com/three11/extract-query-arg/commits/master)
 [![Github file size](https://img.shields.io/github/size/three11/extract-query-arg/dist/index.min.js.svg)](https://github.com/three11/extract-query-arg/)
+[![Build Status](https://travis-ci.org/three11/extract-query-arg.svg?branch=master)](https://travis-ci.org/three11/extract-query-arg)
 [![npm](https://img.shields.io/npm/dt/@three11/extract-query-arg.svg)](https://www.npmjs.com/package/@three11/extract-query-arg)
 [![npm](https://img.shields.io/npm/v/@three11/extract-query-arg.svg)](https://www.npmjs.com/package/@three11/extract-query-arg)
 [![license](https://img.shields.io/github/license/three11/extract-query-arg.svg)](https://github.com/three11/extract-query-arg)
