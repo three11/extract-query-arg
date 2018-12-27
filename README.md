@@ -6,7 +6,6 @@
 [![npm](https://img.shields.io/npm/dt/@three11/extract-query-arg.svg)](https://www.npmjs.com/package/@three11/extract-query-arg)
 [![npm](https://img.shields.io/npm/v/@three11/extract-query-arg.svg)](https://www.npmjs.com/package/@three11/extract-query-arg)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/three11/extract-query-arg/README.md)](https://github.com/three11/extract-query-arg/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/three11/extract-query-arg.svg)](https://greenkeeper.io/)
 
 # Extract Query Argument
 
