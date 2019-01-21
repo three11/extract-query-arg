@@ -13,13 +13,13 @@ A vanilla ES2017 module for extracting query arguments from url.
 
 ## Install
 
-```console
+```sh
 npm i @three11/extract-query-arg
 ```
 
 or
 
-```console
+```sh
 yarn add @three11/extract-query-arg
 ```
 
