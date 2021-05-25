@@ -10,13 +10,13 @@
     factory(mod.exports);
     global.extractQueryArg = mod.exports;
   }
-})(this, function (_exports) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
     value: true
   });
-  _exports.default = void 0;
+  _exports["default"] = void 0;
 
   var extractQueryArg = function extractQueryArg(queryArg) {
     var url = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : window.location.href;
@@ -35,5 +35,5 @@
   };
 
   var _default = extractQueryArg;
-  _exports.default = _default;
+  _exports["default"] = _default;
 });
