@@ -1,23 +1,23 @@
 {
 	"name": "@three11/extract-query-arg",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Extract query argument from url",
-	"main": "dist/extract-query-arg.min.js",
-	"scripts": {
-		"dist": "babel src/extract-query-arg.js --out-file dist/extract-query-arg.js",
-		"minify": "babel src/extract-query-arg.js --out-file dist/extract-query-arg.min.js --presets minify,@babel/env",
-		"build": "npm run dist && npm run minify"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/three11/extract-query-arg.git"
-	},
 	"keywords": [
-		"extract",
+		"qs",
+		"url",
+		"parse",
 		"query",
-		"argument",
-		"GET"
+		"encode",
+		"decode",
+		"string",
+		"querystring",
+		"searchparams"
 	],
+	"homepage": "https://github.com/three11/extract-query-arg#readme",
+	"bugs": {
+		"url": "https://github.com/three11/extract-query-arg/issues"
+	},
+	"license": "GPL-3.0",
 	"authors": [
 		{
 			"name": "Three 11 Ltd",
@@ -35,16 +35,31 @@
 			"role": "Developer"
 		}
 	],
-	"license": "GPL-3.0",
-	"bugs": {
-		"url": "https://github.com/three11/extract-query-arg/issues"
+	"repository": {
+		"type": "git",
+		"url": "github:three11/extract-query-arg"
 	},
-	"homepage": "https://github.com/three11/extract-query-arg#readme",
+	"scripts": {
+		"lint": "eslint 'src/**/*.ts'",
+		"build": "microbundle"
+	},
+	"dependencies": {},
 	"devDependencies": {
-		"@babel/cli": "7.19.3",
-		"@babel/core": "7.20.5",
-		"@babel/plugin-transform-modules-umd": "7.18.6",
-		"@babel/preset-env": "7.20.2",
-		"babel-minify": "0.5.2"
-	}
+		"@typescript-eslint/eslint-plugin": "5.45.0",
+		"@typescript-eslint/parser": "5.45.0",
+		"eslint": "8.28.0",
+		"eslint-config-prettier": "8.5.0",
+		"microbundle": "0.15.1",
+		"typescript": "4.9.3"
+	},
+	"type": "module",
+	"source": "src/extract-query-arg.ts",
+	"exports": {
+		"require": "./dist/extract-query-arg.cjs",
+		"default": "./dist/extract-query-arg.modern.js"
+	},
+	"main": "./dist/extract-query-arg.cjs",
+	"types": "./dist/extract-query-arg.d.ts",
+	"module": "./dist/extract-query-arg.module.js",
+	"unpkg": "./dist/extract-query-arg.umd.js"
 }

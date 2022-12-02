@@ -1,4 +1,4 @@
-const extractQueryArg = (queryArg, url = window.location.href) => {
+export const extractQueryArg = (queryArg: string, url = window.location.href): string | null => {
 	queryArg = queryArg.replace(/[\[\]]/g, '\\$&');
 
 	const matches = new RegExp(`[?&]${queryArg}(=([^&#]*)|&|#|$)`).exec(url);
